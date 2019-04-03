@@ -86,14 +86,15 @@ WeIdentity目前支持基于FISCO-BCOS运行，并提供JAVA SDK供调用。具�
 .. raw:: html
 
     <embed>
-      <table border='1' style="border-collapse:collapse" class='tables'>
+      <table style="border-collapse:collapse">
          <tr>
             <th width="20%">集成方法</th>
             <th width="30%">文档入口</th>
-            <th width="50%">当前状态</th>
+            <th width="35%">当前状态</th>
+            <th width="15%">代码入口</th>
          </tr>
          <tr>
-            <td style="text-align:center"><a href="https://github.com/WeBankFinTech/weidentity-java-sdk">JAVA SDK</a></td>
+            <td style="text-align:center">JAVA SDK</td>
             <td>
                <ul>
                  <li><a href="https://weidentity.readthedocs.io/projects/javasdk/zh_CN/latest/docs/weidentity-installation.html">安装部署文档</a></li>
@@ -109,6 +110,7 @@ WeIdentity目前支持基于FISCO-BCOS运行，并提供JAVA SDK供调用。具�
                <a href="https://codecov.io/gh/WeBankFinTech/weidentity-java-sdk"><img src="https://codecov.io/gh/WeBankFinTech/weidentity-java-sdk/branch/master/graph/badge.svg" /></a>
                <a href="https://www.gnu.org/licenses/lgpl-3.0"><img src="https://img.shields.io/badge/license-GNU%20LGPL%20v3.0-blue.svg" /></a>
             </td>
+            <td style="text-align:center"><a href="https://github.com/WeBankFinTech/weidentity-java-sdk">GitHub</a></td>
          </tr>
       </table>
       <br />

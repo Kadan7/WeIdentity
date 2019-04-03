@@ -92,14 +92,15 @@ WeIdentity is running on top of FISCO-BCOS with JAVA SDK provided for developers
 .. raw:: html
 
     <embed>
-      <table style="border-collapse:collapse">
+      <table border='1' style="border-collapse:collapse" class='tables'>
          <tr>
             <th width="20%">Integration Method</th>
-            <th width="40%">Documentation</th>
-            <th width="40%">Status</th>
+            <th width="30%">Documentation</th>
+            <th width="35%">Status</th>
+            <th width="15%">Code Repository</th>
          </tr>
          <tr>
-            <td style="text-align:center"><a href="https://github.com/WeBankFinTech/weidentity-java-sdk">JAVA SDK</a></td>
+            <td style="text-align:center">JAVA SDK</td>
             <td>
                <ul>
                  <li><a href="https://weidentity.readthedocs.io/projects/javasdk/zh_CN/latest/docs/weidentity-installation.html">Installation and Deployment Guide (Chinese Version)</a></li>
@@ -115,6 +116,7 @@ WeIdentity is running on top of FISCO-BCOS with JAVA SDK provided for developers
                <a href="https://codecov.io/gh/WeBankFinTech/weidentity-java-sdk"><img src="https://codecov.io/gh/WeBankFinTech/weidentity-java-sdk/branch/master/graph/badge.svg" /></a>
                <a href="https://www.gnu.org/licenses/lgpl-3.0"><img src="https://img.shields.io/badge/license-GNU%20LGPL%20v3.0-blue.svg" /></a>
             </td>
+            <td style="text-align:center"><a href="https://github.com/WeBankFinTech/weidentity-java-sdk">GitHub</a></td>
          </tr>
       </table>
       <br />
