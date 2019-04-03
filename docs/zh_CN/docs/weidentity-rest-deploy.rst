@@ -63,7 +63,7 @@ Server的环境要求与WeIdentity-Java-SDK的 `环境要求 <https://weidentity
 
 合约地址修改示例：更新下列属性中weId、cpt、issuer、evidence合约地址的值
 
-.. code-block:: text
+.. code-block:: xml
 
     <bean class="org.springframework.beans.factory.config.PreferencesPlaceholderConfigurer"
       id="appConfig">
@@ -79,7 +79,7 @@ Server的环境要求与WeIdentity-Java-SDK的 `环境要求 <https://weidentity
 
 区块链节点信息修改示例：更新value列表的值，注意每一条value记录都应包含区块链用户、节点IP、节点channel端口地址信息
 
-.. code-block:: text
+.. code-block:: xml
 
     <bean class="org.bcos.channel.handler.ChannelConnections">
     ...
@@ -93,7 +93,7 @@ Server的环境要求与WeIdentity-Java-SDK的 `环境要求 <https://weidentity
 
 * 修改 ``dist/conf/application.properties`` ，确认Server监听端口地址（此即为RestServer的HTTP端口地址）及HTTP重定向地址已设置且未被其他程序占用，否则请修改之。示例：
 
-.. code-block:: text
+.. code-block:: bash
 
     # Server监听端口地址
     server.port=20191
@@ -108,7 +108,7 @@ Server的环境要求与WeIdentity-Java-SDK的 `环境要求 <https://weidentity
 
 进入dist目录执行以下应用以启动或停止RestServer：
 
-.. code-block:: text
+.. code-block:: bash
 
     # 为脚本文件增加权限
     $ chmod +x *.sh

@@ -93,8 +93,8 @@ WeIdentity目前支持基于FISCO-BCOS运行，并提供JAVA SDK供调用。具�
          <tr>
             <th width="20%">集成方法</th>
             <th width="30%">文档入口</th>
-            <th width="35%">当前状态</th>
-            <th width="15%">代码入口</th>
+            <th width="38%">当前状态</th>
+            <th width="12%">代码入口</th>
          </tr>
          <tr>
             <td style="text-align:center">JAVA SDK</td>
